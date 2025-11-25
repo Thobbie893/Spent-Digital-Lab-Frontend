@@ -1,0 +1,79 @@
+.backgroundimage{
+    width: 98%;
+    height: 660px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 95px;
+}
+
+.research-headline-text{
+    position: relative;
+    bottom: 650px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.sub-headline-text{
+    position: relative;
+    bottom: 630px;
+    text-align: center;
+}
+
+.digital-image{
+    width: 834px;
+    height: 328px;
+    position: relative;
+    bottom: 610px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockchain-regulation p, .real-estate p, .decentralized-identity p{
+    background-color: #027808;
+    width: 394px;
+    height: 54px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 32px;
+    color: white;
+
+}
+
+.containerB{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    margin-left: 59px;
+    margin-right: 59px;
+    position: relative;
+    bottom: 550px;
+}
+
+.view-publications-button{
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 367px;
+    height: 71px;
+    gap: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid #027808;
+    margin-left: 537px;
+    margin-right: 537px;
+    margin-top: 116px;
+    margin-bottom: 182px;
+    position: relative;
+    bottom: 500px;
+}
+
+.directional-arrow{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    color: black;
+}

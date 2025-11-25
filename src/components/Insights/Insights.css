@@ -1,0 +1,51 @@
+.trainings{
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.policyimage, .techXcellence, .researchfellowshipimage{
+    width: 407px;
+    height: 407px;
+    justify-content: space-around;
+}
+
+.insights-main-container{
+    position: relative;
+    bottom: 462px;
+}
+
+.insights-text{
+    font-size: 34px;
+    text-align: center;
+}
+
+.insights-subtext{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.innovation-projects-button{
+    background-color: #027808;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 422px;
+    height: 71px;
+    gap: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin: 525px;
+    margin-top: 116px;
+    margin-bottom: 182px;
+}
+
+.right-arrow{
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+

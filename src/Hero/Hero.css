@@ -1,0 +1,55 @@
+.heroimage{
+    width: 821px;
+    height: 633px;
+}
+
+.herocontainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.herotext h1{
+    position: relative;
+    top: 79px;
+    font-size: 48px;
+}
+
+.herotext p{
+    position: relative;
+    top: 130px;
+}
+
+.span1{
+    color: red;
+}
+
+.span2{
+    color: #027808;
+}
+
+.ExploreResearchButton{
+    position: relative;
+    top: 180px;
+    width: 210px;
+    height: 71px;
+    background-color: #027808;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.JoinOurProgramsButton{
+    position: relative;
+    top: 180px;
+    left: 23px;
+    width: 211px;
+    height: 71px;
+    border-radius: 8px;
+    border: 2px solid #027808;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+}

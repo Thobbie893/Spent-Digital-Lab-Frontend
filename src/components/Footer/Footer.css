@@ -1,0 +1,76 @@
+.location-container,
+.mail-container,
+.globe-container{
+    display: flex;
+}
+
+.location-container{
+    margin-top: 12px;
+    gap: 8px;
+}
+.mail-container,
+.globe-container{
+    gap: 8px; 
+}
+
+.location, .globe, .mail{
+    width: 24px;
+    height: 24px;
+}
+
+.social-media-icons{
+    margin-top: 12px;
+}
+
+.footer-logo{
+    width: 175px;
+    height: 49px;
+}
+
+.Linkedin, .Twitter, .Github{
+    width: 32px;
+    height: 32px;
+}
+
+.social-media-icons{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 145px;
+    padding: 10px;
+}
+
+.footer-main-container{
+    background-color: #a7e0aa;
+    padding-left: 32px;
+    padding-top: 42px;
+}
+
+.spent-academy-additional-information{
+    margin-top: 12px;
+}
+
+.quick-links-paragraph{
+    margin-top: 12px;
+}
+
+.About-headline,
+.quick-links-headline,
+.contact-us-headline{
+    font-size: 28px;
+}
+
+.copyright{
+    background-color: #FAF9F6;
+    width: 2000px;
+    padding: 20px;
+    margin-right: 90px;
+    
+
+    
+    
+    text-align: center;
+}

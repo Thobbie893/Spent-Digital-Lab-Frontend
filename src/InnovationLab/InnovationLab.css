@@ -1,0 +1,61 @@
+.innovation-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.innovation-main-container h2{
+    margin-top: 161px;
+    text-align: center;
+    font-size: 48px;
+    color: #027808;
+}
+
+.innovation-paragraph{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.verification-system-container, .safex-container, .parkpaddy-container{
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 23px 55px 48px 48px;
+    box-shadow: 0 0 5px rgb(111, 109, 109);
+}
+
+.verification-system-container h3, .safex-container h3, .parkpaddy-container h3{
+    font-size: 32px;
+    color: #027808;
+}
+
+.verification-system-container p, .safex-container p, .parkpaddy-container p{
+    margin-top: 12px;
+}
+
+.innovation-projects-button{
+    background-color: #027808;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 422px;
+    height: 71px;
+    gap: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin: 525px;
+    margin-top: 116px;
+    margin-bottom: 182px;
+}
+
+.right-arrow{
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+

@@ -1,0 +1,94 @@
+.services-container{
+    display: flex;
+    gap: 39px;
+    margin-top: 26px;
+    position: relative;
+    left: 390px;
+    right: 390px;
+}
+
+.services-main-container{
+    background-color: white;
+    padding-top: 41px;
+}
+
+.services-main-container h2{
+    text-align: center;
+    font-size: 48px;
+    color: #027808;
+}
+
+.services-main-container p{
+    justify-self: center;
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+.services-main-container .p2{
+    position: relative;
+    left: 10px;
+}
+
+.research-icon, .training-icon, .collaoration-icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 70px;
+    margin-top: 4px;
+}
+
+.training-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.collaoration-icon{
+    width: 50px;
+    height: 50px;
+}
+
+
+.research-container,
+.training-container,
+.collaboration-container{
+    background-color: #027808;
+    width: 197px;
+    height: 127px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.research-container p, .training-container p, .collaboration-container p{
+    font-size: 16px;
+    position: relative;
+    bottom: 30px;
+}
+
+.explore-CTA{
+    background-color: #027808;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 307px;
+    height: 71px;
+    gap: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 584px;
+    margin-right: 584px;
+    margin-top: 42px;
+    margin-bottom: 21px;
+    
+
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    
+}
+
