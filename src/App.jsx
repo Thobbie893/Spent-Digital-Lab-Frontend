@@ -10,7 +10,6 @@ import CollaborateWithUs from "./components/CollaborateWithUs/CollaborateWithUs"
 import Insights from "./components/Insights/Insights"
 import Newsletter from "./components/Newsletter/Newsletter"
 import Footer from "./components/Footer/Footer"
-import copyright from "./components/copyright/copyright"
 
 
 
@@ -31,7 +30,7 @@ function App() {
       <Insights />
       <Newsletter />
       <Footer />
-      <copyright/>
+      
       
     </div>
        </>
