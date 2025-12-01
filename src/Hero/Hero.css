@@ -53,3 +53,42 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+@media(max-width:840px){
+    .herocontainer{
+        flex-direction: column;
+        padding: 90px 20px;
+        background-color: #FAF9F6; 
+    }
+
+    .herotext h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .herotext p{
+        text-align: center;
+    }
+
+    .heroimage{
+        width: 459px;
+        height: 459px;
+        margin-top: 220px; 
+        display: block;
+        margin-left: -80px;
+        margin-right: 90px;
+    } 
+
+    .ExploreResearchButton{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .JoinOurProgramsButton{
+        display: block;
+        margin-left: 50px;
+        margin-right: 90px;
+        margin-top: 20px;
+    }
+}

@@ -68,9 +68,36 @@
     width: 2000px;
     padding: 20px;
     margin-right: 90px;
-    
-
-    
-    
     text-align: center;
+}
+
+
+
+@media(max-width:840px){
+    .footer-logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 150px;
+        margin-block: 60px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer-main-container{
+        padding: 10px 5px;
+    }
+
+    .location-container, .mail-container, .globe-container{
+        justify-content: center;
+    }
+
+    .social-media-icons{
+       margin-right: -160px;
+       margin-left: 98px;
+    }
 }

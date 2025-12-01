@@ -50,3 +50,31 @@
     font-size: 28px;
     text-align: center;
 }
+
+@media(max-width:840px){
+    .education-headline-text{
+        font-size: 35px; 
+        margin-top: -40px; 
+    }
+
+    .spent-academy-text{
+        font-size: 16px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .Program-text{
+        font-size: 24px;
+    }
+
+        .blockchain-research-paragraph,
+        .web3-developer-paragraph,
+        .policy-paragraph,
+        .applied-blockchain-paragraph{
+        font-size: 18px;
+        width: 90%;
+        height: 10%;
+        padding: 30px 30px;
+    }
+    }
+

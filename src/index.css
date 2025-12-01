@@ -8,3 +8,10 @@ body{
   background-color: #FAF9F6;
   overflow-x: hidden;
 }
+
+@media(max-width:1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

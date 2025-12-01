@@ -4,7 +4,7 @@ import rightarrow from '../../assets/codicon_arrow-small-right.png'
 
 const Education = () => {
   return (
-    <div>
+    <div className='cont'>
         <h2 className='education-headline-text'>Education & Capacity Building</h2>
         <p className='spent-academy-text'>Through the Spent Academy, we train the next generation of blockchain professionals and researchers. Our programs combine academic rigour <br></br> with hands-on experience in Web3, Cybersecurity, and AI Integration</p>
 

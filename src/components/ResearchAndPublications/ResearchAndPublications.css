@@ -30,7 +30,9 @@
     margin-right: auto;
 }
 
-.blockchain-regulation p, .real-estate p, .decentralized-identity p{
+.blockchain-regulation p,
+.real-estate p,
+.decentralized-identity p{
     background-color: #027808;
     width: 394px;
     height: 54px;
@@ -38,7 +40,6 @@
     padding: 5px;
     margin-top: 32px;
     color: white;
-
 }
 
 .containerB{
@@ -76,4 +77,46 @@
     height: 24px;
     position: relative;
     color: black;
+}
+
+@media(max-width:840px){
+    .digital-image{
+        width: 320px;
+        height: 220px;
+    }
+
+    .research-headline-text{
+        font-size: 35px;
+        margin-top: -180px;
+    }
+
+    .sub-headline-text{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .backgroundimage{
+        height: 890px;
+    }
+
+    .containerB{
+        flex-direction: column;
+        display: block;
+        position: relative;
+        right: 40px;
+        width: 250px;
+    }
+
+        .blockchain-regulation p,
+        .real-estate p,
+        .decentralized-identity p{
+        width: 320px;
+        padding: 10px;
+    }
+
+    .view-publications-button{
+        margin-inline: -3px;
+        max-width: 350px;
+    }
+    
 }
