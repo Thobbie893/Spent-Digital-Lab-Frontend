@@ -103,9 +103,7 @@ select{
     }
 
     .subscribe-CTA-button{
-        margin-block: -40vh;
-        margin-inline: 5vw;
-        max-width: 350px;
-        padding: -20px;
+        margin-inline: 4vw;
+        max-width: 330px;
     }
 }
