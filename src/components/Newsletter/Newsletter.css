@@ -74,4 +74,38 @@ select{
     position: relative;
 }
 
+@media(max-width:840px){
+    input, select{
+        width: 350px;
+        margin-inline: -130px;
+    }
 
+    .newsletter-headline{
+        font-size: 35px;
+        padding: 10px;
+    }
+
+    .newsletter-sub-headline{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .inputtext{
+        font-size: 17px;
+        position: relative;
+        left: -130px;
+    }
+
+    form{
+        position: relative;
+        right: 10px;
+        bottom: 320px;
+    }
+
+    .subscribe-CTA-button{
+        margin-block: -40vh;
+        margin-inline: 5vw;
+        max-width: 350px;
+        padding: -20px;
+    }
+}

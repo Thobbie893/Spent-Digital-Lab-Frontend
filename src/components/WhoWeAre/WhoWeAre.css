@@ -92,3 +92,42 @@
     
 }
 
+@media(max-width:840px){
+    .services-main-container h2{
+        font-size: 35px;
+    }
+
+    .services-main-container p{
+        font-size: 16px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .p2{
+        font-size: 16px;
+        display: block;
+        margin-block: 1vh;
+        text-align: center;
+    }
+    
+    .services-main-container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: auto;
+        height: 1000px;
+    }  
+
+    .services-container{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-inline: -295px;
+    }
+
+    .explore-CTA{
+        margin-inline: 40px;
+    }
+
+   
+
+}

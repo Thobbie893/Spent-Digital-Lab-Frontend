@@ -5,7 +5,7 @@ nav{
     z-index: 10;
     box-shadow: 0px 8px 8px rgb(207, 204, 204);
     height: 101px;
-    padding-block: 25px;
+    padding-block: 25px 5%;
     background-color: white;
     position: fixed;
 }
@@ -15,6 +15,7 @@ nav{
     height: 49px;
     margin-left: 20px;
 }
+
 
 nav ul li{
     display: inline-block;
@@ -31,7 +32,58 @@ nav ul li{
     border-radius: 8px;
     background-color: transparent;
     color: #027808;
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 
+.menu-icon{
+    display: none;
+}
+
+@media(max-width: 1000px){
+   
+    
+    .logo{
+        width: 148px;
+    }
+
+    nav ul li{
+        margin: 10px 15px;
+    }
+}
+
+@media(max-width:840px){
+    nav{
+        padding: 15px 0;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: -200px;
+        bottom: 0;
+        background: #7edb82;
+        color: #027808;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px 40px;
+    }
+
+    .menu-icon{
+        display: block;
+        width: 50px;
+        cursor: pointer;
+        position: relative;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .hide-mobile-menu{
+        right: -200px;
+    }
+}

@@ -49,3 +49,16 @@
     position: relative;
 }
 
+@media(max-width:840px){
+    .trainings{
+        flex-direction: column;
+    }
+    
+        .policyimage,
+        .techXcellence,
+        .researchfellowshipimage{
+        width: 95%;
+        height: 360px;
+        margin-inline: 7px;
+    }
+}
