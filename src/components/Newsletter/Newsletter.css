@@ -105,5 +105,7 @@ select{
     .subscribe-CTA-button{
         margin-inline: 4vw;
         max-width: 330px;
+        position: relative;
+        bottom: 260px;
     }
 }

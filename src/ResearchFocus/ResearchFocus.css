@@ -147,12 +147,17 @@
         margin-top: 20px;
     }
 
-    .data-container, .marketing-container{
+    .data-container,
+    .marketing-container,
+    .Blockchain-container{
         margin-top: 30px;
+        width: 100%;
     }
 
-    .AI-container, .policy-container{
+        .AI-container,
+        .policy-container,
+        .web3-container{
         margin-top: 30px;
+        width: 100%;
     }
-
 }

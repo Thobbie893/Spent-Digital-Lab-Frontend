@@ -80,8 +80,8 @@
     }
 
     .collaborate-main-container{
-        height: 800px;
-        margin-top: -190px;
+        height: 900px;
+        margin-top: 10px;
 
     }
      .collaborate-headline-text{
@@ -106,6 +106,7 @@
         position: relative;
         bottom: 230px;
         max-width: 330px;
+        right: 20px;
     }
 
     .image1{

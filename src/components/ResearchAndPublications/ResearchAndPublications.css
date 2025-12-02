@@ -114,8 +114,8 @@
     }
 
     .view-publications-button{
-        margin-inline: -3px;
-        max-width: 350px;
+        margin-inline: 5vw;
+        max-width: 320px;
     }
     
 }
