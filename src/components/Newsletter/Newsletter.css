@@ -76,7 +76,7 @@ select{
 
 @media(max-width:840px){
     input, select{
-        width: 350px;
+        max-width: 330px;
         margin-inline: -130px;
     }
 
